@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Rubik:wght@600&family=Ubuntu:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+nav ul {
+  display: flex;
+  margin-top: -4px;
+}
+nav ul li {
+  list-style: none;
+  margin: 14px;
+  padding: 9px;
+  margin-right: -139px;
+  margin-left: 172px;
+  margin-top: 19px;
+  color: rgb(15, 15, 15);
+  font-weight: bolder;
+}
+nav img {
+  position: absolute;
+  width: 54px;
+  height: 61px;
+  margin-top: 9px;
+  margin-left: 56px;
+}
+.sin:hover {
+  background-color: #ed0505;
+}
+.login:hover {
+  background-color: #ed0505;
+}
+.sin {
+  margin-right: 238px;
+  float: right;
+  margin-top: -57px;
+  border: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 16px;
+  padding: 9px 29px;
+  cursor: pointer;
+  background: rgb(61, 15, 20);
+  border-radius: 60px;
+}
+.login {
+  margin-right: 88px;
+  float: right;
+  margin-top: -57px;
+  border: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 16px;
+  padding: 9px 32px;
+  cursor: pointer;
+  background: rgb(61, 15, 20);
+  border-radius: 60px;
+}
+.container {
+  width: 100%;
+}
+video {
+  height: auto !important;
+  width: 100% !important;
+}
+.loginf h1 {
+  text-align: center;
+  margin-top: 40px;
+  color: #ffffff;
+}
+.loginf {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  background-color: rgb(78, 72, 84);
+  margin-top: -682px;
+  margin-left: 958px;
+  border-radius: 60px;
+}
+.inputbox {
+  position: relative;
+  text-align: left;
+  margin-left: 10px;
+  top: 20px;
+  left: 20px;
+}
+.inputbox input {
+  width: 370px;
+  padding: 4px;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  outline: none;
+  margin-top: 14px;
+}
+.box .inputbox label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 1px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  transition: 0.05s;
+}
+[type="submit"] {
+  border: none;
+  outline: none;
+  counter-reset: #fff;
+  background: #b9b8b8;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 58px;
+  margin-left: 114px;
+  width: 262px;
+  height: 41px;
+}
+.inputbox input:focus ~ label,
+.inputbox input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #ed0505;
+}
+
+[type="submit"]:hover {
+  background-color: rgb(233, 239, 237);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .box {
+    width: 360px;
+    height: 300px;
+  }
+}
+.inputbox label {
+  position: absolute;
+  top: 10px;
+}
+.tagline1 p {
+  position: absolute;
+  margin-top: -546px;
+  font-size: 60px;
+  font-weight: bolder;
+  color: rgb(254, 0, 0);
+  margin-left: 71px;
+}
+.tagline2 p {
+  position: absolute;
+  margin-top: -473px;
+  font-size: 40px;
+  margin-left: 71px;
+  color: white;
+}
+input:focus::placeholder {
+  opacity: 0;
+  visibility: hidden;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* Adjust this value based on the video aspect ratio */
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+input::placeholder {
+  color: rgb(255, 255, 255);
+}
